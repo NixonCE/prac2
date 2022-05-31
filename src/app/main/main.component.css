@@ -1,0 +1,42 @@
+.container{
+  
+    width: 100%;
+    background-image: url(https://img.freepik.com/foto-gratis/textura-pared-estuco-azul-marino-relieve-decorativo-abstracto-grunge-fondo-color-rugoso-gran-angular_1258-28311.jpg?size=626&ext=jpg&ga=GA1.2.514548035.1653945061);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+.container h1{
+    color :white;
+}
+.container .opciones{
+   
+    display: flex;
+    
+    justify-content:center;
+    
+    padding-top: 4%;
+    padding-bottom: 5%;
+
+}
+button{
+    height: 3rem;
+    width: 10rem;
+    font-size:1.2rem ;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+button:hover{
+    
+    width: 10.5rem;
+    font-size:1.3rem ;
+    color: darkblue;
+    background-color: white;
+}

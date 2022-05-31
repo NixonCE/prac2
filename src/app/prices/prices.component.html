@@ -1,0 +1,7 @@
+<div class="container">
+   <button class="Precios" (click)="mostrar=true">Precios</button>
+   <div class="nums" *ngIf="mostrar">
+      <button *ngFor="let precio of precios">{{precio}}</button>
+   </div>
+   
+</div>

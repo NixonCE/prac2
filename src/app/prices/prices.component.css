@@ -1,0 +1,31 @@
+.container{
+    background-color: black;
+    text-align: center;
+    height: 10rem;
+    padding: 1rem;
+}
+button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    height: 3rem;
+    width: auto;
+    padding: .5rem;
+    border: solid 1px;
+    background-color: transparent;
+    color:white;
+}
+button:hover{
+    background-color: darkblue;
+    border: lightslategray;
+    color: lightslategray;
+    font-size: 1.3rem;
+    height: 3.1rem;
+}
+.nums{
+    padding: 1rem;
+}
+.nums button{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
